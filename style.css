@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:200);
+body {
+    background-color:rgb(82, 89, 93);/* dimgrey;*/
+    font-family: 'Kanit', sans-serif;
+    color:rgb(230, 228, 210);
+    text-align: center;
+}
+h1, h3, p, figcaption {
+  text-shadow: 1px 1px black;
+}
+.rounded {
+    border-radius: 50%;
+    text-align: center;
+    max-width:65%;
+    box-shadow: 10px 10px 5px black;
+}
+.less-rounded {
+    border-radius: 5em;
+    text-align: center;
+    max-width:50%;
+    max-height:50%;
+    box-shadow: 10px 10px 5px black;
+    margin-bottom: 1em;
+}
+.wrapper-one {
+    margin: auto;
+    padding:inherit;
+    text-align: center;
+}
+.navigation li {
+    margin: 0 auto;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 2em;
+    font-size: 13pt;
+}
+.banner-image {
+    max-width: 50%;
+    max-height: 50%;
+}
+}
+ul {
+    padding-left: 0;
+}
+p {
+    font-size: 13pt;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    max-width: 600px;
+    margin:0 auto;
+}
+a {
+  color:rgb(230, 228, 210);
+}
+a:link {
+  text-decoration: none;
+  color: rgb(230, 228, 210);
+}
+a:valid {
+  text-decoration:underline;
+  color: rgba(125, 125, 125, 0.4);
+}
+a:hover, a:active {
+  color:rgb(156, 154, 139);
+}
